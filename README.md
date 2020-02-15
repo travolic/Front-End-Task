@@ -1,56 +1,27 @@
+# FrontEndTask
 
-## Developer Challenge
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
-Using the following endpoint : https://api.myjson.com/bins/tl0bp 
+## Development server
 
-Build an application to search and list hotels:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-![Mock](http://res.cloudinary.com/divwiclgn/image/upload/v1501594231/code-assessment-mock_lauryh.png)
+## Code scaffolding
 
-## Requirements and Output
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- User select the date range to search hotels
-- Display all hotels whose availability dates lies between the search dates.
-- Display the total number of nights based on selected date range. (For example if user search from Aug 12, 2017 to Aug 17, 2017 than Total Number of Nights will be 5.)
-- Display hotel price based on number of nights. (Price x Number of Nights)
+## Build
 
-### Features
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-- User is able to sort based on hotel name and price
-- User is able to filter based on hotel name and price
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Conditions
-- You should consume the api endpoint mention and not use it as internal json file
-- You should build this application in ECMAScript 6 or later, you are free to use any javascript framework.
-- Implement [travis](https://travis-ci.org) or [scrutinizer-ci](https://scrutinizer-ci.com) or any other CI tool for the project, Add the build status badges to your project README file
-- Use [codeclimate](https://codeclimate.com) or any alternative to estimate the code quality and add it's badge to your project README file
+## Running end-to-end tests
 
-## What we are looking for
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-- **Simple, clear, readable code** How well structured it is? Clear separation of concerns? Can anyone just look at it and get the idea to
-what is being done? Does it follow any standards?
-- **Correctness** Does the application do what it promises? Can we find bugs or trivial flaws?
-- **Memory efficiency** How will it behave in case of large datasets?
-- **Testing** How well tested your application is? Can you give some metrics?
+## Further help
 
-
-## Questions & Delivery
-
-If you have any questions to this challenge, please do reach out to us.
-
-The challenge should be delivered as a link to a public git repository (github.com or bitbucket.com are preferred).
-
-## Checklist
-
-Before submitting, make sure that your program
-
-- [ ] Code accompanies the Unit Tests
-- [ ] Usage is clearly mentioned in the README file, This including setup the project, how to run it, how to run unit test, examples,etc
-- [ ] Uses the endpoint directly
-
-## Note
-
-Implementations focusing on **quality over feature completeness** will be highly appreciated,  don’t feel compelled to implement everything and even if you are not able to complete the challenge, please do submit it anyways.
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
