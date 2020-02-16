@@ -3,13 +3,16 @@ import { CommonModule } from '@angular/common';
 
 import { HotelsRoutingModule } from './hotels-routing.module';
 import { HotelsComponent } from './hotels.component';
+import { HotelListingComponent } from './hotel-listing/hotel-listing.component';
+import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
-  declarations: [HotelsComponent],
+  declarations: [HotelsComponent, HotelListingComponent],
   imports: [
     CommonModule,
-    HotelsRoutingModule
+    HotelsRoutingModule,
+    NgbAccordionModule
   ]
 })
 export class HotelsModule { }
