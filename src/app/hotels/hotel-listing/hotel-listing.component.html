@@ -6,7 +6,28 @@
         </div>
       </ng-template>
       <ng-template ngbPanelContent>
-        [listing goes here]
+        <div class="row justify-content-end">
+          <div class="col-8">
+            [sorting goes here]
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            [filters go here]
+          </div>
+          <div class="col-6">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text"><b>Name:</b> [name]</p>
+                  <p class="card-text"><b>Price:</b> [price]</p>
+                  <p class="card-text"><b>City:</b> [city]</p>
+                </div>
+              </div>
+              <!-- <div *ngIf="(i + 1) % 2 === 0" class="w-100"></div> -->
+            </div>
+          </div>
+        </div>
       </ng-template>
     </ngb-panel>
   </ngb-accordion>
