@@ -13,7 +13,14 @@
         </div>
         <div class="row">
           <div class="col-4">
-            [filters go here]
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="search-addon">
+                  <fa-icon [icon]="faSearch"></fa-icon>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Hotel name" aria-label="HotelName" aria-describedby="search-addon">
+            </div>
           </div>
           <div class="col-6">
             <div class="card-deck">
