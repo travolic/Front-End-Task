@@ -8,7 +8,15 @@
       <ng-template ngbPanelContent>
         <div class="row justify-content-end">
           <div class="col-8">
-            [sorting goes here]
+            <div class="clearfix mb-2">
+              <div class="float-left">
+                <label>Total Nights: [a number]</label>
+              </div>
+              <div class="float-right">
+                <button class="btn btn-outline-dark btn-sm">Sort by Name</button>
+                <button class="btn btn-outline-dark btn-sm ml-2">Sort by Price</button>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -21,8 +29,12 @@
               </div>
               <input type="text" class="form-control" placeholder="Hotel name" aria-label="HotelName" aria-describedby="search-addon">
             </div>
+            <div class="form-group">
+              <label for="priceFilterRange">Price Filter</label>
+              <input type="range" class="form-control-range" id="priceFilterRange">
+            </div>
           </div>
-          <div class="col-6">
+          <div class="col-8">
             <div class="card-deck">
              <ng-container *ngFor="let hotel of hotels; let i = index">
               <div class="card mb-3">
