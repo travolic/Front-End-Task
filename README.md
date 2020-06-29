@@ -1,7 +1,8 @@
 
 ## Developer Challenge
 
-Using the following endpoint : https://api.myjson.com/bins/tl0bp 
+Using the following endpoint : [http://fake-hotel-api.herokuapp.com/api/hotels](http://fake-hotel-api.herokuapp.com/api/hotels)
+
 
 Build an application to search and list hotels:
 
