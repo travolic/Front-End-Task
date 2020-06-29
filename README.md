@@ -12,7 +12,7 @@ Build an application to search and list hotels:
 
 - User select the date range to search hotels
 - Display all hotels whose availability dates lies between the search dates.
-- Display the total number of nights based on selected date range. (For example if user search from Aug 12, 2017 to Aug 17, 2017 than Total Number of Nights will be 5.)
+- Display the total number of nights based on selected date range.
 - Display hotel price based on number of nights. (Price x Number of Nights)
 
 ### Features
@@ -24,8 +24,7 @@ Build an application to search and list hotels:
 ## Conditions
 - You should consume the api endpoint mention and not use it as internal json file
 - You should build this application in ECMAScript 6 or later, you are free to use any javascript framework.
-- Implement [travis](https://travis-ci.org) or [scrutinizer-ci](https://scrutinizer-ci.com) or any other CI tool for the project, Add the build status badges to your project README file
-- Use [codeclimate](https://codeclimate.com) or any alternative to estimate the code quality and add it's badge to your project README file
+- Implement github actions or [travis](https://travis-ci.org) or [scrutinizer-ci](https://scrutinizer-ci.com) or any other CI tool for the project, Add the build status badges to your project README file
 
 ## What we are looking for
 
